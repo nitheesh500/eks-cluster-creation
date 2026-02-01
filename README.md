@@ -13,10 +13,11 @@ spot --> 70-90% discount hardware available now...when our customers require we 
 
 SPOT instances
 ================
+```
 eksctl create cluster --config-file=eks.yaml
 
 kubectl get nodes --> shows the nodes
-
+```
 everything in kubernetes is called as resource/object
 
 namespace --> isolated project space where you can create and control resources to your project
@@ -24,13 +25,13 @@ namespace --> isolated project space where you can create and control resources 
 default namespace is created along with cluster creation
 
 kubectl get namespace
-
+```yaml
 kind: <kind-of-resource-you-are-creating>
 apiVersion: v1
 metadata:
 	name: <resource-name-you-want>
 spec:
-
+```
 pod
 ======
 docker --> image --> container

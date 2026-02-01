@@ -6,5 +6,5 @@ metadata:
 managedNodeGroups:
   - name: eksdemonodes
     instanceTypes: ["m5.large","c3.large","c4.large","c5.large"]
-    desiredCapacity: 3
+    desiredCapacity: 1
     spot: true
