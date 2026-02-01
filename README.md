@@ -45,3 +45,7 @@ multiple containers are useful in few applications like shipping logs through si
 
 
 eksctl delete cluster --config-file=eks.yaml
+
+
+nohup eksctl delete cluster --config-file=eks-cluster.yaml > eksctl-delete.log 2>&1 &
+
